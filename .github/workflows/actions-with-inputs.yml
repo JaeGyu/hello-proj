@@ -2,7 +2,7 @@ name: hello-github-actions-with-inputs
 run-name: ${{github.actor}}의 헬로 깃허브
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
     inputs:
       your_name:
         required: true
